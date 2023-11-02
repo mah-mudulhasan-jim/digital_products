@@ -3,11 +3,19 @@
     padding: 0px;
 }
 .test{
+    display: flex;
+    justify-content: center;
     color: blue;
-    /* cursor: pointer; */
-    cursor:e-resize;
+    cursor: pointer;
+
+}
+#test{
+    width: 500px;
+    height: 50px;
 }
 .box{
+    display: flex;
+    justify-content: center;
     padding: 20px;
     background-color: red;
     width: 110px;
