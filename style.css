@@ -86,3 +86,38 @@
 #btn{
     margin-top: 10px;
 }
+/* services section */
+.box{
+    background: url("./images/background.png"), linear-gradient(20deg, rgb(87, 85, 85), rgb(23, 23, 23));
+    color: white;
+    width: 200px;
+    height: 260px;
+    box-shadow: 5px 5px 300px white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+}
+.icon{
+    margin-top: 10px;
+    width: 60px;
+    margin-bottom: 15px;
+}
+.box_title{
+    margin-bottom: 15px;
+}
+.box_description{
+    margin-bottom: 15px;
+}
+.service_sec{
+    padding-top: 20px;
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(7, 7, 7), rgb(146, 145, 145));
+}
+.service_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.box_btn{
+    background-color: gray;
+}
